@@ -1,0 +1,9 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/shears"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":66614}, "model": "bots_lib:item/icon"}
+  ]
+}
