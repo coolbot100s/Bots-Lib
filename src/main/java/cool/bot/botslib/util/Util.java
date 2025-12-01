@@ -26,7 +26,7 @@ public final class Util {
        return level.getBlockState(pos).is(DewDropBlockTags.WATERABLE) && level.getBlockState(pos).getValue(BlockStateProperties.MOISTURE) >= 1;
     }
     public static boolean isDryWaterable(ServerLevel level, BlockPos pos) {
-        return level.getBlockState(pos).is(DewDropBlockTags.WATERABLE) && level.getBlockState(pos).getValue(BlockStateProperties.MOISTURE) == 0;
+        return level.getBlockState(pos).is(DewDropBlockTags.WATERABLE) && level.getBlockState(pos).getValue(BlockStateProperties.MOISTURE) <= 6;
     }
 
     // Calling these methods on blocks that do not have a moisture property like farmland (0-7) will break things.

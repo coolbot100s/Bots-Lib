@@ -154,6 +154,12 @@ dependencies {
     // Glitch Core 0.0.1.1
     implementation fg.deobf("maven.modrinth:s3dmwKy5:pYPZ5MNI")
 
+    // Watering Cans
+//    implementation fg.deobf("maven.modrinth:dew-drop-watering-cans:7e8NWI5O")
+
+    // Daily Weather
+//    implementation fg.deobf("maven.modrinth:daily-weather:RZrtnjL4")
+
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 
