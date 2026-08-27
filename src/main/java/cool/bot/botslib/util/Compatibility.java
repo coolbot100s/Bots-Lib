@@ -1,6 +1,6 @@
 package cool.bot.botslib.util;
 
-import net.minecraftforge.fml.ModList;
+import net.neoforged.fml.ModList;
 import sereneseasons.core.SereneSeasons;
 
 

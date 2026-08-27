@@ -1,3 +1,7 @@
 {
-  "creativetab.dewdrop_tab": "Dew Drop"
+  "creativetab.dewdrop_tab": "Dew Drop",
+  "item.bots_lib.custom_shears": "Dew Drop Icon Item",
+  "item.bots_lib.custom_shears.lore.0": "This is a retextured shears used to display Dew Drops icon on the creative tab in a Vanilla Friendly way.",
+  "item.bots_lib.custom_shears.lore.1": "If this looks wrong to you, install Bot's Lib on the client."
+
 }
