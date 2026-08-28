@@ -5,6 +5,7 @@ package cool.bot.botslib.util;
 import cool.bot.botslib.tag.DewDropBlockTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.phys.HitResult;
@@ -15,7 +16,7 @@ public final class Util {
     /   Returns null if the player is staring at nothing, as you do.
     */
     public static BlockPos blockHighlightedOrNull(Player player) {
-        HitResult hitResult = player.pick(player.getBlockReach(),1.0F,true);
+        HitResult hitResult = player.pick(player.getAttributeValue(Attributes.ENTITY_INTERACTION_RANGE),1.0F,true);
         if (!(hitResult.getType() == HitResult.Type.BLOCK)) {
             return null;
         }

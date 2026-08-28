@@ -14,6 +14,6 @@ public class DewDropBlockTags {
 
 
     public static TagKey<Block> tag(String name) {
-        return BlockTags.create(new ResourceLocation("dewdrop", name));
+        return BlockTags.create(ResourceLocation.fromNamespaceAndPath("dewdrop", name));
     }
 }
